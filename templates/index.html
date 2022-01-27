@@ -1,0 +1,133 @@
+{% extends "base.html" %} 
+
+{% block title %} Prajwal T (@vanquisher3498) {% endblock %} 
+
+{% block navbar %}
+<!-- Navigationbar fixed on the screen -->
+
+ 
+
+<header id="myHeader">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="/#intro">Prajwal T (@vanquisher3498)</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-link active" aria-current="page" href="/#intro">Intro</a>
+                    <a class="nav-link" href="/#education">Education</a>
+                    <a class="nav-link" href="/#skills">Skills</a>
+                  <a class=" nav-link " href="/#projects">Projects</a>
+                  <a class="nav-link " href="https://medium.com/@tkushal216" target="_blank" rel="noopener noreferrer"><i class="fab fa-medium fa-2x "></i></a>
+
+                  <!--<a class="nav-link disabled ">Disabled</a> -->
+              </div>
+          </div>
+      </div>
+  </nav>
+</header>
+
+{% endblock %}
+
+{% block Intro %}
+
+<!--<div style="color:white; text-align: center; padding-top: 100px ; padding-left: 25px; padding: auto; word-wrap: break-word; ">-->
+<div class="intro" id="intro">
+    <h1> Hi! This is <b class="b-green " "> Prajwal</b> 👋 </h1>
+                    <p style="font-size: large; ">
+                        I have worked with <b class="b-green ">Cohesity</b> as a <b class=" b-green ">Site Reliablity Engineer.</b> My interests include DevOps, Cloud and Security. I also write technical blogs for <b class=" b-green "><a href="https://awstip.com/" target="_blank" rel="noopener noreferrer">AWSTips</a></b> and
+                        <b class=" b-green "><a href="https://blog.devgenius.io/" target="_blank" rel="noopener noreferrer">DevGenius</a></b>.
+
+                    </p>
+                    <p style="font-size: large; ">
+                        When I am AFK, I listen to music, spend time with my family. I also like Bike 🏍️ Rides
+                    </p>
+                </div>
+                
+{% endblock %} 
+
+{% block Education %}
+
+                <div id="education">
+                    <h1 class="edu-div-h1 "> Education </h1>
+
+                    <list>
+                        <ul>
+                            <h2 class="edu-div-li-ul-h2 "> <b class="b-green ">BE in Information Science</b> - The National Institue of Engineering, Mysore (2016-2020)</h2>
+                        </ul>
+                        <ul>
+                            <h2 class="edu-div-li-ul-h2 "> <b class="b-green ">Intermediate - PCMC </b> - Deeksha Integrated, Kempegowda PU College, Tumkur (2014-2016)</h2>
+                        </ul>
+                        <ul>
+                            <h2 class="edu-div-li-ul-h2 "> <b class="b-green ">Schooling (1-10) </b> - The Presidency Public School,Sira</h2>
+                        </ul>
+                    </list>
+
+
+                </div>
+
+{% endblock %} 
+
+{% block Skills %}
+<div id="skills">
+                <h1 class="edu-div-h1"> Skills and Tools </h1>
+
+                <i class="fab fa-python fa-5x green-logo logo-padding "></i>
+                <i class="fab fa-docker fa-5x green-logo logo-padding "></i>
+                <i class="fab fa-redhat fa-5x green-logo logo-padding "></i>
+                <i class="fab fa-linux fa-5x green-logo logo-padding "></i>
+                <i class="fab fa-github fa-5x green-logo logo-padding "></i>
+                <!--<img src="{{url_for( 'static',filename='images/googlecloud.svg' )}} ">-->
+
+</div>
+{% endblock %} 
+
+{% block Projects %}
+<div id="projects">
+                <h1 class=" edu-div-h1 "> Projects and Certfications </h1>
+
+            <h3 style="color: white;"><u>Projects</u></h3>    
+            <div>
+                <list>
+                <ul>
+                    <h1 class="b-green edu-div-li-ul-h2"> 1. Simple Note Taking Application using Flask </h1>
+                    <button value=" Watch Live"></button>
+                    <i class="fab fa-github fa-2x green-logo logo-padding "></i>
+                </ul>
+                
+
+                <ul>
+                    <h1 class="b-green edu-div-li-ul-h2"> 2. Flask API </h1>
+                    <button value=" Watch Live"></button>
+                    <i class="fab fa-github fa-2x green-logo logo-padding "></i>
+
+                </ul>
+            </list>
+            </div>
+
+            <h3 style="color: white;"> <u >Certfications</u> </h3>
+            <div>
+                <list>
+                    <ul>
+                        <h1 class="b-green edu-div-li-ul-h2" >Red Hat Certified System Administrator 8 (RHCSA8)</h1>
+                        <a href="https://rhtapps.redhat.com/verify?certId=210-205-712" target="_blank" rel="noopener noreferrer"<i class="fab fa-redhat fa-2x green-logo logo-padding "></a></i> 
+                    </ul>
+                </list>
+            </div>
+
+</div>
+
+{% endblock %}
+
+{% block empty %}
+<p>"</p>
+<p>"</p>
+<p>"</p>
+<p>"</p>
+<p>"</p>
+<p>"</p>
+<p>"</p>
+<p>"</p>
+{% endblock %}
