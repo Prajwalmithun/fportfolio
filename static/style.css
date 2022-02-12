@@ -82,4 +82,8 @@ body {
 footer {
   background-color: black;
 }
+
+.btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
+  background-color: #00d09c !important;
+}
 /*# sourceMappingURL=style.css.map */
