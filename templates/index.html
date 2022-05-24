@@ -137,6 +137,20 @@
 
 {% endblock %}
 
+{% block Books %}
+
+<div>
+    <h1 style="color: white;"> Favourite Books</h1>
+    <div id="images">
+    <img src="{{url_for( 'static',filename='images/shoedog.jpeg' )}}">
+    <img src="{{url_for( 'static',filename='images/atomichabits.jpeg' )}}">
+</div>
+
+</div>
+
+{% endblock %}
+
+
 {% block empty %}
 <p>"</p>
 <p>"</p>
